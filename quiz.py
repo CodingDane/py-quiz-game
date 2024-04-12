@@ -26,3 +26,5 @@ else:
     print("Incorrect!")
 
 print("Thanks for playing!")
+print("You got " + str(score) + " questions correct!")
+print("You got " + str((score / 2) * 100) + "%.")
